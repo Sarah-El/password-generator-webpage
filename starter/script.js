@@ -97,6 +97,8 @@ function getPasswordOptions() {
   var specialCharacters = confirm("Would you like your password to include special characters? click 'ok' for yes.");
 }
 
+
+
 // Function for getting a random element from an array
 function getRandom(arr) {
 
@@ -104,7 +106,7 @@ function getRandom(arr) {
 
 // Function to generate password with user input
 function generatePassword() {
-
+  getPasswordOptions();
 }
 
 // Get references to the #generate element
