@@ -101,7 +101,6 @@ function getPasswordOptions() {
   var includeNumber = confirm("Would you like your password to include numbers? click 'ok' for yes.");
   var specialCharacters = confirm("Would you like your password to include special characters? click 'ok' for yes.");
 
-
   var passwordOptions = {
     passwordLength : passwordLength,
     includeLowercase : includeLowercase,
