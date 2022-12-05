@@ -95,19 +95,36 @@ function getPasswordOptions() {
   var includeUppercase = confirm("Would you like your password to include uppercase characters? click 'ok' for yes.");
   var includeNumber = confirm("Would you like your password to include numbers? click 'ok' for yes.");
   var specialCharacters = confirm("Would you like your password to include special characters? click 'ok' for yes.");
+  
+  if (passwordLength.length < 10|| passwordLength.length > 64) {
+    alert("Sorry, your character length must be between 10 and 64 characters")
+  }
 }
 
 
 
 // Function for getting a random element from an array
 function getRandom(arr) {
+  var randomIndex = Math.floor(Math.random() * arr.length);
+  var random = arr[randomIndex];
+  return randomSelection;  
+}
+
+var randomResult = getRandom(array);
+
+//function to get random number
+
+function randomNumber (numericCharacters) {
 
 }
 
 // Function to generate password with user input
 function generatePassword() {
-  getPasswordOptions();
+  var userInput = getPasswordOptions();
 }
+
+
+
 
 // Get references to the #generate element
 var generateBtn = document.querySelector('#generate');
