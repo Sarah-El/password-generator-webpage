@@ -31,6 +31,7 @@ N/A
 Please refer to the licence in the repo
 
 ## Link to live
-https://sarah-el.github.io/password-generator-webpage
+https://sarah-el.github.io/password-generator-webpage/
 
-## Screenshots
+## Screenshot
+<img width="1262" alt="image" src="https://user-images.githubusercontent.com/117095370/205638111-e2eeb9f7-2ff0-463f-ab7c-f6143dbfacd9.png">
