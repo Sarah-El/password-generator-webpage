@@ -88,7 +88,7 @@ var upperCasedCharacters = [
   'Z'
 ];
 
-// Function to prompt user for password options
+// Function to prompt user for password options and store these options
 function getPasswordOptions() {
   var passwordLength = prompt("How many charcters would you like your password to be? Please enter a value between 10 - 64");
   passwordLength = parseInt(passwordLength);
@@ -114,14 +114,12 @@ function getPasswordOptions() {
 }
 
 
-
 // Function for getting a random element from an array
 function getRandom(arr) {
   var randomIndex = Math.floor(Math.random() * arr.length);
   var random = arr[randomIndex];
   return random;  
 }
-
 
 // Function to generate password with user input
 function generatePassword() {
